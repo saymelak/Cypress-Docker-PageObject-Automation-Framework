@@ -1,0 +1,21 @@
+{
+  "baseUrl": "http://automationpractice.com/index.php",
+  "watchForFileChanges": false,
+  "username": "admin",
+  "password": "password",
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "reporterEnabled": "mochawesome",
+    "mochawesomeReporterOptions": {
+      "reportDir": "cypress/reports/mocha",
+      "quite": true,
+      "overwrite": false,
+      "html": false,
+      "json": true
+    }
+  },
+  "retries": {
+    "runMode": 1,
+    "openMode": 1
+  }
+}
